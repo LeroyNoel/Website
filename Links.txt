@@ -3,3 +3,4 @@ https://outlook.office365.com/
 https://onedrive.live.com/
 https://copilot.microsoft.com/
 https://www.github.com/
+https://loop.cloud.microsoft
