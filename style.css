@@ -1,6 +1,14 @@
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    background-color: rgb(73, 72, 72);
+    background-color: white;
+    color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {    
+        background-color: #D3D3D3;
+        color: #ffffff;
+    }
 }
 
 .rainbow-text {
@@ -44,7 +52,7 @@ body {
 
 .normal-text {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    color: black;
+    color: inherit;
     text-align: center;
     list-style: none;
     padding: 0;
