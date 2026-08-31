@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+
+  [studies]:
+    image: nginx:latest
+    ports:
+        - "30680:80"
+    volumes:
+        - ./studies/nginx.conf:/etc/nginx/nginx.conf
+        - ./studies/index.html:/usr/share/nginx/html
